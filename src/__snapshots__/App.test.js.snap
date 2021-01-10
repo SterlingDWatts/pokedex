@@ -3,5 +3,50 @@
 exports[`App Component renders the UI as expected 1`] = `
 <div
   className="App"
-/>
+>
+  <div
+    className="pokedex-top"
+  >
+    <div
+      className="top"
+    >
+      <div
+        id="blue-circle"
+      >
+        <div />
+      </div>
+      <div
+        className="circle"
+        id="red-circle"
+      />
+      <div
+        className="circle"
+        id="yellow-circle"
+      />
+      <div
+        className="circle"
+        id="green-circle"
+      />
+    </div>
+    <div
+      className="bottom"
+    >
+      <div
+        className="left"
+      />
+      <div
+        className="triangle"
+      />
+    </div>
+  </div>
+  <div
+    className="Entry"
+  >
+    <div
+      className="container"
+    >
+      <ul />
+    </div>
+  </div>
+</div>
 `;

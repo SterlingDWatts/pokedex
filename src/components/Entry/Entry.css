@@ -1,0 +1,26 @@
+.Entry {
+  height: calc(100vh - 96px);
+  padding: 16px;
+}
+
+.Entry .container {
+  background-color: white;
+  border-radius: 16px;
+  height: 100%;
+  padding: 24px 8px;
+}
+
+.Entry .container ul {
+  background-color: #00DBFF;
+  border-radius: 8px;
+  height: 100%;
+  overflow: scroll;
+  padding: 16px;
+}
+
+.Entry li {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 110px auto 16px;
+  margin-bottom: 16px;
+}
