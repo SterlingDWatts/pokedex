@@ -3,5 +3,7 @@
 exports[`App Component renders the UI as expected 1`] = `
 <div
   className="App"
-/>
+>
+  <ul />
+</div>
 `;
